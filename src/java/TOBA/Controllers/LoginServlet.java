@@ -8,7 +8,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 public class LoginServlet extends HttpServlet {
 
@@ -48,11 +47,6 @@ public class LoginServlet extends HttpServlet {
             if(username.equals("jsmith@toba.com") && password.equals("letmein")){
             url = "/account_activity.jsp";
             }
-          //      if ((username == this.getInitParameter(username))
-          //     && (password == this.getInitParameter(password))){
-          //      url = "/account_activity.jsp";
-          //  }
-                
             
             else{
                 url = "/login_failure.html";

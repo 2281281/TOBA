@@ -131,8 +131,8 @@ public class User implements Serializable {
         this.password = password;}
 
 
-    public void setId(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   // public void setId(String string) {
+   //     throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   // }
 
 }
